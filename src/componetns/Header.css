@@ -1,0 +1,36 @@
+.h-container{
+    width: 72vw;
+    margin-left: 14vw;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.heading{
+    font-size: 20px;
+    font-weight: 700;
+}
+.add-button{
+    background-color: rgb(83, 214, 83);
+    border-radius: 3px;
+    border: 1px solid black;
+    height: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.add-button:hover{
+    background:rgb(172, 235, 55) ;
+}
+.logout-btn{
+    border-radius: 3px;
+    border: 1px solid black;
+    height: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 75px;
+    background-color: rgb(237, 85, 85);
+}
+.logout-btn:hover{
+    background: rgb(238, 103, 215);
+}

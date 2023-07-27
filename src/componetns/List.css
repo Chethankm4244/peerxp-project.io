@@ -1,0 +1,50 @@
+.contain-table{
+    width: 100vw;
+}
+table{
+    width: 80vw;
+    text-align: center;
+    border: 1px solid black;
+    margin-left: 10vw;
+    margin-top: 3vh;
+   
+}
+table th{
+    background-color: rgb(41, 70, 111);
+    padding: 5px;
+    color: white;
+   
+}
+table tr{
+    background-color: rgb(223, 230, 244);
+   font-weight: 500;
+}
+.edit-button{
+    background-color: rgb(142, 207, 247);
+    cursor: pointer;
+    font-weight: 500;
+}
+.delete-button{
+    background-color: rgb(242, 176, 143);
+    cursor: pointer;
+    font-weight: 500;
+}
+.edit-button:hover{
+    background:rgb(98, 161, 223) ;
+}
+.delete-button:hover{
+    background: rgb(241, 136, 84);
+}
+.search-inputs{
+    display: flex;
+    justify-content: space-between;
+    width: 25vw;
+    margin-left: 70vh;
+    margin-top: -23px;
+    
+   
+}
+.search-inputs input{
+    border: 2px solid black;
+    background-color: rgb(223, 230, 244) ;
+}
